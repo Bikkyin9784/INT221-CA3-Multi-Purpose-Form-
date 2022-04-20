@@ -1,6 +1,6 @@
-# Multi Step Form using Laravel
+# Multi Purpose Form framework used Laravel
 
-![Multi Step Form](01.JPG)
+![Multi Purpose Form](01.JPG)
 
 > ### Routes
 ```php
@@ -35,8 +35,8 @@ Route::view('/registration-success','registration-success')->name('registration.
 </html>
 ```
 
-> ### multi-step-form.blade.php
-This is the content of multi step form livewire blade component.
+> ### multi-purpose-form.blade.php
+This is the content of multi purpose form using livewire blade component.
 ```php
 <div>
     
@@ -235,8 +235,8 @@ This is the content of multi step form livewire blade component.
 </div>
 ```
 
-> ### MultiStepForm.php
-This is the multi step form livewire class
+> ### MultiPurposeForm.php
+This is the multi Purpose form
 ```php
 <?php
 
@@ -274,7 +274,7 @@ class MultiStepForm extends Component
 
     public function render()
     {
-        return view('livewire.multi-step-form');
+        return view('livewire.multi-Purpose-form');
     }
 
     public function increaseStep(){
